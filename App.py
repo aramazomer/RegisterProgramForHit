@@ -55,7 +55,7 @@ def hitsro_webpage():
     config.set('takeid', 'id_count', id_count)
     config.set('takeid', 'email_count', email_count)
     with open('C:\\Users\\Ömer Aramaz\\PycharmProjects\\NewBot\\permvar.ini', 'w') as configfile:
-        config.write(configfile
+        config.write(configfile)
     print(id_count)
 
 
